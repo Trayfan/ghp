@@ -36,7 +36,7 @@ class STARTUPINFOA(Structure):
     ]
 
 class PROCESS_INFORMATION(Structure):
-    __fields__ = [
+    _fields_ = [
         ("hProcess", HANDLE),
         ("hThread", HANDLE),
         ("dwProcessId", DWORD),

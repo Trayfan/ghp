@@ -37,10 +37,13 @@ class debugger():
                                     None,
                                     byref(lpStartupInfo),
                                     byref(lpProcessInformation)):
-            print("Процесс запущен!")
-            print("ID процесса: {0}".format(lpProcessInformation.dwProcessId))
-
+            print("Successfully started process!")
+            print(lpProcessInformation.hProcess)
+            print(lpProcessInformation.hThread)
+            print(lpProcessInformation.dwProcessId)
+            print(lpProcessInformation.dwThreadId)
         else:
-            print("Что-то пошло не так")
+            print("Something wrong")
+            print("Error: {0}".format(kernel32.GetLastError()))
 
         
