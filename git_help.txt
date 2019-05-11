@@ -1,0 +1,8 @@
+help git
+git remote add <remote name> <https://github.com/<distributor>/<project>.git> - добавить удаленный проект
+git pull <remote name> <branch name> - скачать ветку
+git checkout <branch name> - перейти в указанную ветку
+git checkout -b <branch name> - создать новую ветку
+git merge <branch name> - слить ветки
+git checkout -d <branch name> - удалить ветку
+git push <remote name> <branch name> - залить ветку в удаленный репозиторий
