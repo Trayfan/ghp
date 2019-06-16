@@ -5,5 +5,5 @@ git pull <remote name> <branch name> - скачать ветку
 git checkout <branch name> - перейти в указанную ветку
 git checkout -b <branch name> - создать новую ветку
 git merge <branch name> - слить ветки
-git checkout -d <branch name> - удалить ветку
+git branch -d <branch name> - удалить ветку
 git push <remote name> <branch name> - залить ветку в удаленный репозиторий
