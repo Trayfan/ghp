@@ -1,5 +1,6 @@
 help git
 git remote add <remote name> <https://github.com/<distributor>/<project>.git> - добавить удаленный проект
+git remote rename <remote name> <new remote name>
 git pull <remote name> <branch name> - скачать ветку
 git checkout <branch name> - перейти в указанную ветку
 git checkout -b <branch name> - создать новую ветку
